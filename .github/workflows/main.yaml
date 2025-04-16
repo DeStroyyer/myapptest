@@ -1,4 +1,5 @@
 name: CI
+run-name: ${{ github.actor}} run github actions
 
 on: [push]
 
@@ -8,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say hello world to the everybody
-        run: echo "Hello world and ${{ secrets.MYNAME }}!!!"
+        run: echo "Hello world!!!"
 
   build2:
     runs-on: ubuntu-latest
