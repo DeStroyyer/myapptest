@@ -13,7 +13,7 @@ jobs:
         
       - name: work with secrets
         env:
-          NAME: "${{ MYNAME }}"
+          NAME: "${{ secrets.MYNAME }}"
         run: echo "My secret is ${NAME}"
         
 
