@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - usses: actions/checkout@v4
+      - uses: actions/checkout@v4
       - name: Say hello world to the everybody
         run: echo "Hello world!!!"
