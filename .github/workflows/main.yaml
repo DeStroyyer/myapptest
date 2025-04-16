@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say hello world to the everybody
-        run: echo "Hello world!!!"
+        run: echo "Hello world and ${{ secrets.MYNAME }}!!!"
 
   build2:
     runs-on: ubuntu-latest
