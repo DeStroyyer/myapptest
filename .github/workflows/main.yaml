@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say hello world to the everybody
-        run: 124`143`echo "Hello world!!!"
+        run: echo "Hello world!!!"
 
   build2:
     runs-on: ubuntu-latest
